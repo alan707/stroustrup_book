@@ -8,6 +8,7 @@ int main()
     cin >> first_name >> age; // get name and age from console
     age_in_months = age * 12 ; // convert age to months
     cout << "Hello, " << first_name << 
-        " (age in months: "<< age_in_months <<")\n";
+        " (age in months: "<< age_in_months <<", age in years: "<< age <<" )\n"; 
+
     return 0;   
 }
