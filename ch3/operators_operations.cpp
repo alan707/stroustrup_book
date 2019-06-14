@@ -2,7 +2,7 @@
 int main()  
 {
     cout << "Please enter your a floating-point value: "; // prompts to enter floating point value 
-    double n;
+    int n;
     cin >> n;
     cout<< "n == " << n
         << "\nn+1 == " << n + 1
